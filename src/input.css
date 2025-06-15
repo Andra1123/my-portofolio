@@ -1,0 +1,15 @@
+@import "tailwindcss";
+
+@theme {
+  --color-secondary: #f3bd28;
+  --color-custom-black: #35332b;
+}
+
+/* custom styling */
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  @apply text-custom-black;
+}
